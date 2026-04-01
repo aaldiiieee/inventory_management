@@ -93,6 +93,21 @@ Cukup buka file `index.html` di browser. Tidak perlu server, build tools, atau i
 
 ---
 
+## 🌐 Deployment
+ 
+Aplikasi ini adalah static site (tanpa backend build), sehingga bisa di-deploy gratis ke platform berikut:
+ 
+### Netlify (Rekomendasi)
+ 
+1. Buka [app.netlify.com](https://app.netlify.com)
+2. Drag & drop folder `inventory-dashboard/` ke halaman deploy
+3. Site akan live dalam beberapa detik
+4. (Opsional) Ubah nama subdomain di **Site settings → Domain management**
+
+> **Catatan:** Pastikan `config/supabase.js` sudah terisi kredensial Supabase sebelum deploy, atau gunakan fitur modal UI untuk input saat pertama kali akses.
+
+---
+
 ## 🛠️ Teknologi
 
 | Teknologi | Kegunaan |
