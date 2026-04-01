@@ -161,45 +161,6 @@
     </main>
   </div>
 
-  <!-- Config Modal (shown when Supabase not configured) -->
-  <!-- <div class="modal-overlay" id="configModal" style="display: none;">
-    <div class="modal">
-      <div class="modal__icon">
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-          <path d="M16 4l12 24H4L16 4z" stroke="#F59E0B" stroke-width="2" fill="none"/>
-          <path d="M16 14v5M16 22v1" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
-        </svg>
-      </div>
-      <h2 class="modal__title">Supabase Configuration Required</h2>
-      <p class="modal__desc">
-        Enter your Supabase project credentials to connect the dashboard to your database.
-        You can find these in your
-        <strong>Supabase Dashboard → Settings → API</strong>.
-      </p>
-      <form id="configForm" class="modal__form">
-        <div class="modal__field">
-          <label for="supabaseUrl">Project URL</label>
-          <input
-            type="url"
-            id="supabaseUrl"
-            placeholder="https://your-project.supabase.co"
-            required
-          />
-        </div>
-        <div class="modal__field">
-          <label for="supabaseKey">Anon / Public Key</label>
-          <input
-            type="text"
-            id="supabaseKey"
-            placeholder="eyJhbGciOiJIUzI1NiIs..."
-            required
-          />
-        </div>
-        <button type="submit" class="modal__submit-btn">Connect to Database</button>
-      </form>
-    </div>
-  </div> -->
-
   <!-- Supabase JS Client (CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
   <script src="config/supabase.js"></script>
